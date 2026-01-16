@@ -1,0 +1,12 @@
+*{
+    margin:0
+}
+.font-inter{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+ 
+}
+.logo-navbar{
+    width:139px;
+    height:60px;
+}

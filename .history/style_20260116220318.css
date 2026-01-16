@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.font-inter{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+ 
+}
+.logo-navbar{
+    width:139px;
+    height:60px;
+}
+.nav-list{
+    width:36
+}
