@@ -204,7 +204,7 @@
     height: 28px;
 }
 
-
+/* APP SECTION */
 .App{
     display: flex;
     gap: 40px;
@@ -291,13 +291,12 @@
     margin: 20px 0;
 }
 
-
+/* FOOTER */
 .footer{
     width: 100%;
     min-height: 250px;
     background-color: #001931;
     display: flex;
-   
     justify-content: space-between;
     align-items: center;
     padding: 40px 20px;

@@ -204,7 +204,7 @@
     height: 28px;
 }
 
-
+/* APP SECTION */
 .App{
     display: flex;
     gap: 40px;
@@ -291,7 +291,7 @@
     margin: 20px 0;
 }
 
-
+/* FOOTER */
 .footer{
     width: 100%;
     min-height: 250px;

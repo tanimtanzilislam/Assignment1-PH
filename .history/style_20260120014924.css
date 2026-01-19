@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-inter{
+    font-family: "Outfit", sans-serif;
+}
+
+/* NAVBAR */
+.navbar{
+    max-width: 1200px;
+    height: 64px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-navbar img{
+    width: 139px;
+    height: auto;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: #222;
+    font-size: 16px;
+}
+
+.nav-button{
+    width: 164px;
+    height: 44px;
+    color: white;
+    background-color: #30B868;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* BANNER */
+#banner{
+    position: relative;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.bg-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* overlay */
+#banner::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+}
+
+/* TEXT ON IMAGE */
+.banner-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    max-width: 770px;
+}
+
+.banner-content h1{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+}
+
+.banner-content p{
+    font-size: 20px;
+    margin-top: 15px;
+    opacity: 0.9;
+}
+
+
+.banner-content-col{
+    color:#30B868
+}
+.banner-btn{
+    width: 251px;
+    height: 52px;
+    border-radius: 4px;         /* correct */
+    padding: 4px 16px 12px 16px;
+    margin-top: 32px;
+    gap: 10px;
+    background-color: #30B868;
+    display: flex;
+    align-items: center;        /* vertically center */
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+}
+
+.txtbtn{
+    color: white;
+    font-family: "Outfit", sans-serif; /* or inter */
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.arrow{
+    width: 18px;
+    height: 18px;
+}
+
+.transparent-button{
+    background: transparent;
+    border: 2px solid white;     /* button visible রাখতে */
+    color: white;
+    width: 198px;
+    height: 52px;
+    border-radius: 4px;          /* correct */
+    font-size: 16px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.arrow{
+    width:20px;
+    height:20px;
+}
+
+.poster h1{
+    position: relative;
+   
+   
+    color:black;
+    text-align: center;
+    max-width: 770px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 84px;
+}
+
+
+.button-group{
+    display: flex;
+    gap: 16px;  
+    align-items: center;
+}
+
+.poster{
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding:0 120px;
+    align-items:center;               
+}
+
+.card-container{
+    
+    display:flex;
+    justify-content: center;
+    gap:24px;
+    border-color:8px;
+    padding-left: 120px;
+}
+.card{
+    display: flex;
+     width: 322px;
+    height: 300px;
+     align-items: center;      /* horizontally center */
+    border: 1px solid #ccc; /* border */
+    box-sizing: border-box;
+     /* Add this */
+    display: flex;
+    flex-direction: column;
+    align-items: center;      /* horizontally center */
+    text-align: center;       /* text center */
+    padding-top: 20px;
+    gap: 14px;
+    
+}
+.card h3{
+   
+    font:inter;
+    weight: 600px;
+    style:semibold;
+    align-items: center;
+}
+.ellipse-shape {
+    width: 60px;
+    height: 60px; /* Or equal for circle */
+    background-color: #F95555;
+    border-radius: 50%; /* Makes it elliptical/circular */
+    margin: 10px auto; /* Center it */
+      display: flex;       
+    justify-content: center;      /* horizontal center */
+    align-items: center;  
+}
+.icon-img{
+    width:27.01px;
+    height: 29px;
+    Top:1.5px;
+    Left:2.49px;
+    align-items:center;
+}
+.App{
+    display: flex;
+   
+}
+.App-img{
+    width:600px;
+    height: 600px;
+    radius:12px;
+    padding-left:120px;
+}
+.soln p{
+   color:#469165;
+   width: 700px;
+   height:20px;
+   margin-top:138px;
+   margin-right:60px;
+}
+.soln h1{
+    width:700px;
+    height:116px;
+    font:inter;
+    weight:700;
+    style:bold;
+    size:48px;
+    line-height: 100%;
+
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 84px;
+    margin-bottom: 0px;
+}
+.para{
+    margin-top:16px;
+}
+.content{
+    display: flex;
+    flex-direction: column; 
+}
+
+.ready{
+    width: 1360px;
+    height: 384px;
+    border-radius: 12px;     /* radius → border-radius */
+    
+    padding: 80px 40px;     /* short & correct */
+
+    margin: 2px 120px 120px 120px;
+
+    background-color: #f7f6f4;
+
+    display: flex;
+    flex-direction: column; /* h1 + p উপর-নিচে */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ready h1{
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 84px;
+    margin-bottom: 12px;
+}
+
+.ready p{
+    color: black;
+    font-size: 16px;        /* size → font-size */
+    line-height: 24px;
+}
+.ready-btn{
+    background-color: #469165;   
+    color: white;              
+
+    padding: 12px 24px;         
+    border: none;
+    border-radius: 6px;
+
+    font-size: 16px;
+    font-weight: 600;            
+    cursor: pointer;
+}
+.footer{
+    color:#
+}
+
+
+@media (max-width: 768px){
+    .banner-content h1{
+        font-size: 42px;
+        line-height: 52px;
+    }
+}
