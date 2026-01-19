@@ -287,19 +287,11 @@
     font-size: 16px;        /* size → font-size */
     line-height: 24px;
 }
-.ready-btn{
-    background-color: #469165;   
-    color: white;              
-
-    padding: 12px 24px;         
-    border: none;
-    border-radius: 6px;
-
-    font-size: 16px;
-    font-weight: 600;            
-    cursor: pointer;
+,ready-btn{
+    width:132px;
+    height: 19px;
+    
 }
-
 
 @media (max-width: 768px){
     .banner-content h1{

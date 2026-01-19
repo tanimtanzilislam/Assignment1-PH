@@ -175,23 +175,15 @@
     justify-content: center;
     gap:24px;
     border-color:8px;
-    padding-left: 120px;
 }
 .card{
     display: flex;
      width: 322px;
     height: 300px;
      align-items: center;      /* horizontally center */
+    text-align: center; 
     border: 1px solid #ccc; /* border */
     box-sizing: border-box;
-     /* Add this */
-    display: flex;
-    flex-direction: column;
-    align-items: center;      /* horizontally center */
-    text-align: center;       /* text center */
-    padding-top: 20px;
-    gap: 14px;
-    
 }
 .card h3{
    
@@ -217,90 +209,8 @@
     Left:2.49px;
     align-items:center;
 }
-.App{
-    display: flex;
-   
-}
-.App-img{
-    width:600px;
-    height: 600px;
-    radius:12px;
-    padding-left:120px;
-}
-.soln p{
-   color:#469165;
-   width: 700px;
-   height:20px;
-   margin-top:138px;
-   margin-right:60px;
-}
-.soln h1{
-    width:700px;
-    height:116px;
-    font:inter;
-    weight:700;
-    style:bold;
-    size:48px;
-    line-height: 100%;
 
-    font-size: 70px;
-    font-weight: 700;
-    line-height: 84px;
-    margin-bottom: 0px;
-}
-.para{
-    margin-top:16px;
-}
-.content{
-    display: flex;
-    flex-direction: column; 
-}
-
-.ready{
-    width: 1360px;
-    height: 384px;
-    border-radius: 12px;     /* radius → border-radius */
-    
-    padding: 80px 40px;     /* short & correct */
-
-    margin: 2px 120px 120px 120px;
-
-    background-color: #f7f6f4;
-
-    display: flex;
-    flex-direction: column; /* h1 + p উপর-নিচে */
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.ready h1{
-    color: black;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 84px;
-    margin-bottom: 12px;
-}
-
-.ready p{
-    color: black;
-    font-size: 16px;        /* size → font-size */
-    line-height: 24px;
-}
-.ready-btn{
-    background-color: #469165;   
-    color: white;              
-
-    padding: 12px 24px;         
-    border: none;
-    border-radius: 6px;
-
-    font-size: 16px;
-    font-weight: 600;            
-    cursor: pointer;
-}
-
-
+/* RESPONSIVE */
 @media (max-width: 768px){
     .banner-content h1{
         font-size: 42px;

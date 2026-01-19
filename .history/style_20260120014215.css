@@ -288,15 +288,15 @@
     line-height: 24px;
 }
 .ready-btn{
-    background-color: #469165;   
-    color: white;              
+    background-color: #469165;   /* background color */
+    color: white;                /* text color */
 
-    padding: 12px 24px;         
+    padding: 12px 24px;          /* button size control */
     border: none;
     border-radius: 6px;
 
     font-size: 16px;
-    font-weight: 600;            
+    font-weight: 600;            /* semibold */
     cursor: pointer;
 }
 

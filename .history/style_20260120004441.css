@@ -257,50 +257,20 @@
 }
 
 .ready{
-    width: 1360px;
-    height: 384px;
-    border-radius: 12px;     /* radius → border-radius */
-    
-    padding: 80px 40px;     /* short & correct */
-
-    margin: 2px 120px 120px 120px;
-
-    background-color: #f7f6f4;
-
-    display: flex;
-    flex-direction: column; /* h1 + p উপর-নিচে */
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    width:1360px;
+    height:384px;
+    radius:12px;
+    padding-top:80px;
+    padding-right: 40px;
+    padding-bottom: 80px;
+    padding-left:40px;
+    margin-top:2px;
+    margin-left:120px;
+    margin-right:120px;
+    margin-bottom: 120px;
+    color:#f7f6f4;
+    border-box:
 }
-
-.ready h1{
-    color: black;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 84px;
-    margin-bottom: 12px;
-}
-
-.ready p{
-    color: black;
-    font-size: 16px;        /* size → font-size */
-    line-height: 24px;
-}
-.ready-btn{
-    background-color: #469165;   
-    color: white;              
-
-    padding: 12px 24px;         
-    border: none;
-    border-radius: 6px;
-
-    font-size: 16px;
-    font-weight: 600;            
-    cursor: pointer;
-}
-
-
 @media (max-width: 768px){
     .banner-content h1{
         font-size: 42px;
