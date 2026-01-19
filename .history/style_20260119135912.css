@@ -96,52 +96,12 @@
     color:#30B868
 }
 .banner-btn{
-    
     width:251px;
     height: 52px;
     radius:4px;
     padding-top: 4px;
-    padding-right: 16px;
-    padding-bottom:12px;
-    padding-left:16px;
-    margin-top: 32px;
-    gap:10px;
-    background-color:#30B868;
-    display: flex;
-   
-    
-}
-.txtbtn{
-    size:16px;
-    text-color:white;
-}
-.btn-text{
-    color:white;
-    font:inter;
-    weight:600;
-    style:semibold;
-    size:16px;
-    display: flex;
-}
-.transparent-button{
-      background:transparent;
-     
-    width:198px;
-    height:52px;
-    radius:4px;
-    padding-top: 12px;
-    padding-right:16px;
-    padding-left: 16px;
-    gap:10px;
-    color:white;
-
-  
 }
 
-.arrow{
-    width:20px;
-    height:20px;
-}
 /* RESPONSIVE */
 @media (max-width: 768px){
     .banner-content h1{

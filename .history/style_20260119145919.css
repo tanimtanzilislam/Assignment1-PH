@@ -113,7 +113,7 @@
 }
 .txtbtn{
     size:16px;
-    text-color:white;
+    
 }
 .btn-text{
     color:white;
@@ -121,11 +121,10 @@
     weight:600;
     style:semibold;
     size:16px;
-    display: flex;
 }
 .transparent-button{
       background:transparent;
-     
+      margin-top:32px;
     width:198px;
     height:52px;
     radius:4px;
@@ -133,8 +132,7 @@
     padding-right:16px;
     padding-left: 16px;
     gap:10px;
-    color:white;
-
+    color:white
   
 }
 
