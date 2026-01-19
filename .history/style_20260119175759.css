@@ -123,20 +123,19 @@
 }
 
 .transparent-button{
-    background: transparent;
-    border: 2px solid white;     /* button visible রাখতে */
-    color: white;
-    width: 198px;
-    height: 52px;
-    border-radius: 4px;          /* correct */
-    font-size: 16px;
-    cursor: pointer;
+      background:transparent;
+     
+    width:198px;
+    height:52px;
+    radius:4px;
+    padding-top: 12px;
+    padding-right:16px;
+    padding-left: 16px;
+    gap:10px;
+    color:white;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  
 }
-
 
 .arrow{
     width:20px;
@@ -151,12 +150,6 @@
     weight:700;
 
 }
-.button-group{
-    display: flex;
-    gap: 16px;   /* দুইটা button এর মাঝে 16px */
-    align-items: center;
-}
-
 /* RESPONSIVE */
 @media (max-width: 768px){
     .banner-content h1{

@@ -96,47 +96,47 @@
     color:#30B868
 }
 .banner-btn{
-    width: 251px;
+    
+    width:251px;
     height: 52px;
-    border-radius: 4px;         /* correct */
-    padding: 4px 16px 12px 16px;
+    radius:4px;
+    padding-top: 4px;
+    padding-right: 16px;
+    padding-bottom:12px;
+    padding-left:16px;
     margin-top: 32px;
-    gap: 10px;
-    background-color: #30B868;
+    gap:10px;
+    background-color:#30B868;
     display: flex;
-    align-items: center;        /* vertically center */
-    justify-content: center;
-    cursor: pointer;
-    border: none;
+   
+    
 }
-
 .txtbtn{
-    color: white;
-    font-family: "Outfit", sans-serif; /* or inter */
-    font-weight: 600;
-    font-size: 16px;
+    size:16px;
+    text-color:white;
 }
-
-.arrow{
-    width: 18px;
-    height: 18px;
-}
-
-.transparent-button{
-    background: transparent;
-    border: 2px solid white;     /* button visible রাখতে */
-    color: white;
-    width: 198px;
-    height: 52px;
-    border-radius: 4px;          /* correct */
-    font-size: 16px;
-    cursor: pointer;
-
+.btn-text{
+    color:#ffffff;
+    font:inter;
+    weight:600;
+    style:semibold;
+    size:16px;
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
+.transparent-button{
+      background:transparent;
+     
+    width:198px;
+    height:52px;
+    radius:4px;
+    padding-top: 12px;
+    padding-right:16px;
+    padding-left: 16px;
+    gap:10px;
+    color:white;
 
+  
+}
 
 .arrow{
     width:20px;
@@ -151,12 +151,6 @@
     weight:700;
 
 }
-.button-group{
-    display: flex;
-    gap: 16px;   /* দুইটা button এর মাঝে 16px */
-    align-items: center;
-}
-
 /* RESPONSIVE */
 @media (max-width: 768px){
     .banner-content h1{

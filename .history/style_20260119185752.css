@@ -151,12 +151,9 @@
     weight:700;
 
 }
-.button-group{
-    display: flex;
-    gap: 16px;   /* দুইটা button এর মাঝে 16px */
-    align-items: center;
+.buttions{
+    displa
 }
-
 /* RESPONSIVE */
 @media (max-width: 768px){
     .banner-content h1{
